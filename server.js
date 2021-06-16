@@ -2,7 +2,7 @@
 
 http.createServer((request, response) => {
     //Completar las rutas del servidor web
-}).listen(8000);
+}).listen();
 
 const getFiles = (pathFile, response) => {
     //Función para poder leer los archivos del directorio public 
